@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 30px;
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+.container {
+  background-color: rgb(15, 15, 15);
+  border-radius: 20px;
+  border: none;
+  width: 90%;
+  height: 500px;
+}
+
+input {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 5%;
+  margin: 1rem;
+  border-radius: 10px;
+  width: 60%;
+}
+
+input:focus {
+  border-color:mediumaquamarine;
+  outline: none;
+}
+
+button {
+  font-size: 100%;
+  width: 70%;
+  padding: 2%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+select{
+    font-size: 100%;
+    width: 70%;
+    padding: 2%;
+    background-color: whitesmokes;
+    border-radius: 10px;
+}
+
+@media screen and (min-width : 530px) {
+    .container {
+        width: 75%;
+        height: 100%;
+    } 
+
+    h1 {
+        font-size: 50px;
+    }
+
+    input {
+        font-size: 20px;
+        padding: 3%;
+        width: 60%;
+    }
+    button {
+        font-size: 40px;
+        padding: 2%;
+        width: 66%;
+    }
+
+    select{
+        font-size: 30px;
+        padding: 2%;
+        width: 66%;
+    }
+}
